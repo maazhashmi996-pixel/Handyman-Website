@@ -90,7 +90,6 @@ export default function UltraWorkflow() {
                     </h2>
                 </motion.div>
 
-                {/* CARDS GRID */}
                 <div className="grid md:grid-cols-3 gap-10">
                     {steps.map((step, index) => (
                         <motion.div
