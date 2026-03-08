@@ -51,7 +51,6 @@ export default function UltraWorkflow() {
     return (
         <section className="relative py-24 md:py-36 px-6 bg-[#1e1b4b] overflow-hidden">
 
-            {/* VIBRANT MESH GRADIENT: Ye background ko bright aur attractive banata hai */}
             <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
                 <motion.div
                     animate={{ x: [0, 100, 0], y: [0, 50, 0], scale: [1, 1.2, 1] }}
@@ -64,11 +63,8 @@ export default function UltraWorkflow() {
                     transition={{ duration: 15, repeat: Infinity }}
                     className="absolute bottom-[-10%] right-[-10%] w-[70%] h-[70%] bg-cyan-500/30 blur-[140px] rounded-full"
                 />
-                {/* Royal Purple Center */}
                 <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/50 via-purple-900/40 to-[#1e1b4b]" />
             </div>
-
-            {/* Bright technical pattern */}
             <div
                 className="absolute inset-0 opacity-[0.1] z-0 pointer-events-none"
                 style={{ backgroundImage: `radial-gradient(#fff 1px, transparent 1px)`, backgroundSize: '40px 40px' }}
