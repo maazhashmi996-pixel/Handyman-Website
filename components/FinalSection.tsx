@@ -16,9 +16,7 @@ export default function FinalSectionCommand() {
 
         <section className="relative overflow-hidden px-6 py-32 bg-[#0d001a] selection:bg-cyan-500 selection:text-white">
 
-            {/* Background Mesh Gradient - Vibrant Blobs */}
             <div className="absolute inset-0 z-0">
-                {/* Top Left - Electric Blue */}
                 <motion.div
                     animate={{
                         scale: [1, 1.2, 1],
