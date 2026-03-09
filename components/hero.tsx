@@ -7,7 +7,6 @@ export default function HeroSection() {
     return (
         <div className="relative w-full min-h-screen bg-slate-950 overflow-hidden">
 
-            {/* VIP 3D House Background with Enhanced Glow */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center bg-no-repeat opacity-70 scale-110 grayscale-[20%] contrast-[120%]" />
 
