@@ -10,7 +10,6 @@ export default function HeroSection() {
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center bg-no-repeat opacity-70 scale-110 grayscale-[20%] contrast-[120%]" />
 
-                {/* Vibrant Gradient Overlays for Depth */}
                 <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-transparent to-slate-950" />
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-600/20 via-transparent to-blue-600/20" />
 
