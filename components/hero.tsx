@@ -14,7 +14,6 @@ export default function HeroSection() {
                 <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-transparent to-slate-950" />
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-600/20 via-transparent to-blue-600/20" />
 
-                {/* Neon Scanner Animation */}
                 <motion.div
                     initial={{ top: "0%" }}
                     animate={{ top: "100%" }}
