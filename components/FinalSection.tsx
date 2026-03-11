@@ -167,7 +167,7 @@ export default function FinalSectionCommand() {
                 >
                     <div className="flex items-center gap-4">
                         <div className="w-2 h-2 rounded-full bg-yellow-500 animate-pulse shadow-[0_0_10px_#f59e0b]" />
-                        <p>© 2026 FUTUREFIX COMMAND CENTER</p>
+                        <p>© 2026 APEX HANDYMAN</p>
                     </div>
                     <div className="flex gap-12 text-zinc-500">
                         {['Privacy', 'Security', 'Terms'].map(link => (
