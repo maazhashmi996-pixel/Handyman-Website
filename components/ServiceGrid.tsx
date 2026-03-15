@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -75,7 +76,6 @@ export default function ServiceGrid() {
                                 Service Portfolio
                             </span>
                         </div>
-                        {/* Elite (Yellow) & Structures (Full Black) */}
                         <h2 className="text-5xl md:text-8xl font-black tracking-tighter leading-[0.9]">
                             <span className="text-yellow-500">ELITE</span> <br />
                             <span className="text-black">STRUCTURES.</span>
@@ -98,15 +98,16 @@ export default function ServiceGrid() {
                             whileHover={{ y: -12 }}
                             className="group relative h-[550px] rounded-[3rem] overflow-hidden bg-zinc-100 border border-zinc-200 shadow-xl"
                         >
-                            {/* Image Layer with Grayscale Hover */}
+                            {/* Image Layer - COLORFUL VERSION */}
                             <div className="absolute inset-0 z-0">
                                 <Image
                                     src={item.img}
                                     alt={item.title}
                                     fill
-                                    className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700 opacity-80 group-hover:opacity-100"
+                                    className="object-cover group-hover:scale-110 transition-all duration-700 opacity-100"
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-90" />
+                                {/* Gradient Overlay for text readability */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-500" />
                             </div>
 
                             {/* Content Layer */}
@@ -116,7 +117,7 @@ export default function ServiceGrid() {
                                     <div className="bg-yellow-500 text-black p-4 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-500">
                                         {item.icon}
                                     </div>
-                                    <span className="text-white font-black text-xl tracking-tighter opacity-40 group-hover:opacity-100 transition-opacity">
+                                    <span className="text-white font-black text-xl tracking-tighter opacity-60 group-hover:opacity-100 transition-opacity">
                                         {item.code}
                                     </span>
                                 </div>
@@ -127,12 +128,12 @@ export default function ServiceGrid() {
                                         {item.title.split(' ')[0]} <br />
                                         <span className="text-yellow-500">{item.title.split(' ')[1]}</span>
                                     </h3>
-                                    <p className="text-zinc-300 text-sm font-medium line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                    <p className="text-zinc-200 text-sm font-medium line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                                         Precision-led execution with premium materials and monitoring.
                                     </p>
                                     <div className="pt-4 flex items-center gap-4 text-white font-bold text-xs uppercase tracking-[0.2em]">
                                         <span className="group-hover:text-yellow-500 transition-colors">Details</span>
-                                        <div className="bg-white/10 p-2 rounded-full group-hover:bg-yellow-500 group-hover:text-black transition-all">
+                                        <div className="bg-white/20 p-2 rounded-full group-hover:bg-yellow-500 group-hover:text-black transition-all">
                                             <ArrowUpRight size={18} />
                                         </div>
                                     </div>
