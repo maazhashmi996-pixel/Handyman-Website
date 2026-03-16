@@ -34,7 +34,7 @@ const services = [
         title: "Landscape Design",
         code: "ENV-G2",
         icon: <TreePine size={28} />,
-        img: "https://images.unsplash.com/photo-1558905612-ad6d19610f1b?q=80&w=2022",
+        img: "/01.jpg",
     },
 ];
 
