@@ -29,7 +29,6 @@ export default function FinalSectionCommand() {
     return (
         <section className="relative overflow-hidden px-6 py-32 bg-white selection:bg-yellow-500 selection:text-white">
 
-            {/* BACKGROUND ANIMATIONS */}
             <div className="absolute inset-0 z-0 opacity-30">
                 <motion.div
                     animate={{
