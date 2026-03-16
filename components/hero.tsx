@@ -17,7 +17,6 @@ export default function UpdatedHandymanHero() {
     return (
         <div className="relative w-full min-h-screen bg-[#020202] overflow-hidden font-sans selection:bg-orange-500/30 flex flex-col">
 
-            {/* DYNAMIC BACKGROUND CAROUSEL */}
             <div className="absolute inset-0 z-0">
                 <AnimatePresence mode="wait">
                     <motion.div
