@@ -43,7 +43,6 @@ export default function UltraWorkflow() {
     return (
         <section className="relative py-24 md:py-40 px-6 bg-white overflow-hidden">
 
-            {/* Subtle Background Texture */}
             <div className="absolute inset-0 z-0 opacity-[0.04]"
                 style={{ backgroundImage: `radial-gradient(#eab308 1px, transparent 1px)`, backgroundSize: '40px 40px' }}
             />
