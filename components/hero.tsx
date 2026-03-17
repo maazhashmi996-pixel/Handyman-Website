@@ -33,7 +33,6 @@ export default function UpdatedHandymanHero() {
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_10%_10%,rgba(249,115,22,0.08),transparent_40%)] z-10" />
             </div>
 
-            {/* VIP NAVBAR */}
             <nav className="relative z-50 px-6 md:px-12 py-6 md:py-10 flex justify-between items-center max-w-screen-2xl mx-auto w-full">
                 <motion.div
                     initial={{ y: -20, opacity: 0 }}
