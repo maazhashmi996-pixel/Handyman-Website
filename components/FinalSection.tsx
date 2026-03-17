@@ -50,7 +50,6 @@ export default function FinalSectionCommand() {
                 />
             </div>
 
-            {/* Industrial Grid */}
             <div className="absolute inset-0 opacity-[0.06] z-0"
                 style={{ backgroundImage: `radial-gradient(#000 1px, transparent 1px)`, backgroundSize: '30px 30px' }}
             />
