@@ -23,7 +23,6 @@ const itemVariants: Variants = {
 export default function ApexBioSection() {
     return (
         <section className="relative px-6 py-24 bg-white text-[#1a1a1a] overflow-hidden">
-            {/* Subtle Background Texture */}
             <div
                 className="absolute inset-0 opacity-[0.04]"
                 style={{
