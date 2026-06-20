@@ -65,7 +65,6 @@ export default function ApexBioSection() {
                         </div>
                     </motion.div>
 
-                    {/* RIGHT: BIO CONTENT */}
                     <motion.div variants={itemVariants} className="lg:col-span-7 grid md:grid-cols-2 gap-5">
                         {[
                             { title: "Honest Service", desc: "No complicated processes, only transparent solutions." },
