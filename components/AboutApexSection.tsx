@@ -45,7 +45,7 @@ export default function ApexBioSection() {
                             <Wrench size={12} /> Operational Doctrine
                         </div>
 
-                        {/* Heading: Darker Black and Smaller Size */}
+
                         <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-[0.95] text-black">
                             Apex <br /> <span className="text-zinc-400">Handyman</span>
                         </h2>
