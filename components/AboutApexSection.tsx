@@ -40,7 +40,6 @@ export default function ApexBioSection() {
             >
                 <div className="grid lg:grid-cols-12 gap-12 items-center">
 
-                    {/* LEFT: MISSION STATEMENT */}
                     <motion.div variants={itemVariants} className="lg:col-span-5 space-y-6">
                         <div className="inline-flex items-center gap-2 text-yellow-600 font-black uppercase tracking-[0.2em] text-[9px] border border-yellow-600/20 px-4 py-1.5 rounded-full bg-yellow-50/50">
                             <Wrench size={12} /> Operational Doctrine
